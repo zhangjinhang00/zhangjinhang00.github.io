@@ -19,18 +19,12 @@ cmd命令窗口输入hugo version查看版本号
 hugo version  新建战点 hugo new site sitename  将会在当前路径下创建sitename站点
 获取主题 https://themes.gohugo.io/
 cd sitename git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c  进入站点，把m10c theme下载到themes下
-####新建内容
-hugo new post/blog.md  在centent下创建post/blog.md, blog.md是博客要显示的内容
-####本地博客
-hugo server -t m10c -D hugo server --theme=m10c --buildDrafts  上面两行命令是执行效果一样的，服务地址
+新建内容 hugo new post/blog.md  在centent下创建post/blog.md, blog.md是博客要显示的内容
+本地博客 hugo server -t m10c -D hugo server --theme=m10c --buildDrafts  上面两行命令是执行效果一样的，服务地址
 http://localhost:1313/
-####github远程博客
-#####git创建空仓库
-项目名为 你的账户.github.io,如 zhangshan.github.io
-#####打包
-hugo -t m10c --baseUrl=&quot;https://zhangshan.github.io&quot; -D  执行后会在根目录下生成public文件夹
-#####构建git项目
-cd public git init git add ."/>
+github远程博客 git创建空仓库 项目名为 你的账户.github.io,如 zhangshan.github.io
+打包 hugo -t m10c --baseUrl=&quot;https://zhangshan.github.io&quot; -D  执行后会在根目录下生成public文件夹
+构建git项目 cd public git init git add ."/>
 
     <meta property="og:title" content="使用hugo创建博客" />
 <meta property="og:description" content="####获取hugo
@@ -40,18 +34,12 @@ cmd命令窗口输入hugo version查看版本号
 hugo version  新建战点 hugo new site sitename  将会在当前路径下创建sitename站点
 获取主题 https://themes.gohugo.io/
 cd sitename git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c  进入站点，把m10c theme下载到themes下
-####新建内容
-hugo new post/blog.md  在centent下创建post/blog.md, blog.md是博客要显示的内容
-####本地博客
-hugo server -t m10c -D hugo server --theme=m10c --buildDrafts  上面两行命令是执行效果一样的，服务地址
+新建内容 hugo new post/blog.md  在centent下创建post/blog.md, blog.md是博客要显示的内容
+本地博客 hugo server -t m10c -D hugo server --theme=m10c --buildDrafts  上面两行命令是执行效果一样的，服务地址
 http://localhost:1313/
-####github远程博客
-#####git创建空仓库
-项目名为 你的账户.github.io,如 zhangshan.github.io
-#####打包
-hugo -t m10c --baseUrl=&quot;https://zhangshan.github.io&quot; -D  执行后会在根目录下生成public文件夹
-#####构建git项目
-cd public git init git add ." />
+github远程博客 git创建空仓库 项目名为 你的账户.github.io,如 zhangshan.github.io
+打包 hugo -t m10c --baseUrl=&quot;https://zhangshan.github.io&quot; -D  执行后会在根目录下生成public文件夹
+构建git项目 cd public git init git add ." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zhangjinhang00.github.io/post/blog/" />
 <meta property="article:published_time" content="2019-07-01T10:23:09&#43;08:00"/>
@@ -120,14 +108,14 @@ git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
 
 <p>进入站点，把m10c theme下载到themes下</p>
 
-<p>####新建内容</p>
+<h4 id="新建内容">新建内容</h4>
 
 <pre><code>hugo new post/blog.md
 </code></pre>
 
 <p>在centent下创建post/blog.md, blog.md是博客要显示的内容</p>
 
-<p>####本地博客</p>
+<h4 id="本地博客">本地博客</h4>
 
 <pre><code class="language-启动fuw">hugo server -t m10c -D
 hugo server --theme=m10c --buildDrafts
@@ -137,20 +125,20 @@ hugo server --theme=m10c --buildDrafts
 
 <p><a href="http://localhost:1313/">http://localhost:1313/</a></p>
 
-<p>####github远程博客</p>
+<h4 id="github远程博客">github远程博客</h4>
 
-<p>#####git创建空仓库</p>
+<h5 id="git创建空仓库">git创建空仓库</h5>
 
 <p>项目名为 你的账户.github.io,如 zhangshan.github.io</p>
 
-<p>#####打包</p>
+<h5 id="打包">打包</h5>
 
 <pre><code>hugo -t m10c --baseUrl=&quot;https://zhangshan.github.io&quot; -D
 </code></pre>
 
 <p>执行后会在根目录下生成public文件夹</p>
 
-<p>#####构建git项目</p>
+<h5 id="构建git项目">构建git项目</h5>
 
 <pre><code>cd public
 git init
@@ -160,7 +148,7 @@ git remote add origin https://github.com/zhangshan/zhangshan.github.io.git
 git push -u origin master
 </code></pre>
 
-<p>#####访问hugo博客</p>
+<h5 id="访问hugo博客">访问hugo博客</h5>
 
 <p><a href="https://zhangshan.github.io">https://zhangshan.github.io</a></p>
 
