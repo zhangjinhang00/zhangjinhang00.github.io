@@ -17,20 +17,25 @@
       <pubDate>Mon, 01 Jul 2019 10:23:09 +0800</pubDate>
       
       <guid>https://zhangjinhang00.github.io/post/blog/</guid>
-      <description> 1.快捷键使用 ctrl+q 在当前页显示类信息
-alt+shift 选中多个关键词
-ctrl+y 删除整行
-ctrl+d 复制整行
-ctrl+shift+n 打开任何特定文件
-Ctrl+shift+alt+左右键 移动方法参数
-ctrl+shift+alt+u 打开UML
-ctrl+h hierarchy 层级结构 production
-ctrl+alt+L 整理格式
-shift+tab tab逆操作
-ctrl+alt+m 方法抽离
-ctrl+shift+上下键 移动选择代码
-ctrl+q
-2.TOMCAT发布 </description>
+      <description>####获取hugo
+https://github.com/gohugoio/hugo/releases
+下载hugo window zip 解压配置环境变量
+cmd命令窗口输入hugo version查看版本号
+hugo version  新建战点 hugo new site sitename  将会在当前路径下创建sitename站点
+获取主题 https://themes.gohugo.io/
+cd sitename git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c  进入站点，把m10c theme下载到themes下
+####新建内容
+hugo new post/blog.md  在centent下创建post/blog.md, blog.md是博客要显示的内容
+####本地博客
+hugo server -t m10c -D hugo server --theme=m10c --buildDrafts  上面两行命令是执行效果一样的，服务地址
+http://localhost:1313/
+####github远程博客
+#####git创建空仓库
+项目名为 你的账户.github.io,如 zhangshan.github.io
+#####打包
+hugo -t m10c --baseUrl=&amp;quot;https://zhangshan.github.io&amp;quot; -D  执行后会在根目录下生成public文件夹
+#####构建git项目
+cd public git init git add .</description>
     </item>
     
   </channel>
