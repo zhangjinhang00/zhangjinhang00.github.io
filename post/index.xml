@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://example.org/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 2019 10:23:09 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用hugo创建博客</title>
+      <link>http://example.org/post/blog/</link>
+      <pubDate>Mon, 01 Jul 2019 10:23:09 +0800</pubDate>
+      
+      <guid>http://example.org/post/blog/</guid>
+      <description> 1.快捷键使用 ctrl+q 在当前页显示类信息
+alt+shift 选中多个关键词
+ctrl+y 删除整行
+ctrl+d 复制整行
+ctrl+shift+n 打开任何特定文件
+Ctrl+shift+alt+左右键 移动方法参数
+ctrl+shift+alt+u 打开UML
+ctrl+h hierarchy 层级结构 production
+ctrl+alt+L 整理格式
+shift+tab tab逆操作
+ctrl+alt+m 方法抽离
+ctrl+shift+上下键 移动选择代码
+ctrl+q
+2.TOMCAT发布 </description>
+    </item>
+    
+  </channel>
+</rss>
